@@ -3,16 +3,13 @@
 
 # Network Flow Matching
 
-Solves a pilot/flight assignment feasibility problem by building a flow network from flight-pilot pairing constraints and running **Edmonds-Karp max-flow** (BFS augmenting paths over residual capacities) to determine whether a feasible assignment exists and, if so, what it is.
+| Folder | What it is |
+|---|---|
+| [`assignment-4-flight-pilot-matching/`](assignment-4-flight-pilot-matching/) | An Edmonds-Karp max-flow solver for a flight/pilot assignment feasibility problem. |
 
-## Running
-
-```bash
-javac Main.java
-java Main < input1.txt
-```
-
-Verified against the provided fixtures — output matches `output1.txt`/`output2.txt` exactly for `input1.txt`/`input2.txt`.
+This is the only assignment in this repo — I only found local records of
+Assignment 4 for this course; Assignments 1–3 weren't kept locally (or
+weren't part of this offering).
 
 ## 🎓 Project Context
 
